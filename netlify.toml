@@ -3,7 +3,7 @@
   publish = "build/"
 
 [template.environment]
-  REACT_APP_DAILY_API_KEY = "Replace with API key"
+  REACT_APP_DAILY_API_KEY = "a6fe70dae8c65d69a4a114c18904ff1e35aa8f4785a0ca0a5db20dae1c048cf4"
 
 [[redirects]]
   # Proxies the Daily /rooms endpoint, POST will create a room and a GET will return a list
