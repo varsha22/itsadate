@@ -4,8 +4,7 @@
 
   #publish = "build/"
   command = "npm run build"
-  publish="custom-video-daily-react-hooks-main/build"
-  base = "custom-video-daily-react-hooks-main"
+  publish="build"
   
 
 [template.environment]
