@@ -1,5 +1,7 @@
 [build]
-  command = "npm run netlify-build"
+  #command = "npm run netlify-build"
+  command = "REACT_APP_STAGE=dev npm run build"
+
   publish = "build/"
 
 [template.environment]
