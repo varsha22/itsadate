@@ -1,6 +1,6 @@
 [build]
-  #command = "npm run netlify-build"
-  command = "REACT_APP_STAGE=npm run build"
+  command = "prod npm run netlify-build"
+  #command = "REACT_APP_STAGE=npm run build"
 
   publish = "build/"
 
