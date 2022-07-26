@@ -18,10 +18,7 @@ import {
   CameraOff,
   MicrophoneOff,
   MicrophoneOn,
-  Screenshare,
   Info,
-  ChatIcon,
-  ChatHighlighted,
 } from './Icons';
 
 export default function Tray({ leaveCall }) {
