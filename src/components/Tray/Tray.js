@@ -23,7 +23,7 @@ import {
 
 export default function Tray({ leaveCall }) {
   const callObject = useDaily();
-  const { isSharingScreen, startScreenShare, stopScreenShare } = useScreenShare();
+  //const { isSharingScreen, startScreenShare, stopScreenShare } = useScreenShare();
 
   const [showMeetingInformation, setShowMeetingInformation] = useState(false);
   const [showChat, setShowChat] = useState(false);
